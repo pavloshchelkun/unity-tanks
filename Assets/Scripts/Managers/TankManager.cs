@@ -4,15 +4,19 @@ using UnityEngine;
 [Serializable]
 public class TankManager
 {
-    public Color m_PlayerColor;            
-    public Transform m_SpawnPoint;         
-    [HideInInspector] public int m_PlayerNumber;             
-    [HideInInspector] public string m_ColoredPlayerText;
-    [HideInInspector] public GameObject m_Instance;          
-    [HideInInspector] public int m_Wins;                     
+    public Color m_PlayerColor;
+    public Transform m_SpawnPoint;
+    [HideInInspector]
+    public int m_PlayerNumber;
+    [HideInInspector]
+    public string m_ColoredPlayerText;
+    [HideInInspector]
+    public GameObject m_Instance;
+    [HideInInspector]
+    public int m_Wins;
 
 
-    private TankMovement m_Movement;       
+    private TankMovement m_Movement;
     private TankShooting m_Shooting;
     private GameObject m_CanvasGameObject;
 
